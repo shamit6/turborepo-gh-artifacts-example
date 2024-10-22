@@ -35,7 +35,7 @@ jobs:
           CI: true
 
       - name: Turborepo local server
-        uses: felixmosh/turborepo-gh-artifacts@v2
+        uses: felixmosh/turborepo-gh-artifacts@v3.1.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           server-token: 'turbo-repo'
