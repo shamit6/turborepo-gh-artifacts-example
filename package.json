@@ -6,6 +6,7 @@
     "apps/*",
     "packages/*"
   ],
+  "packageManager": "yarn@1.22.4",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
@@ -15,7 +16,7 @@
   "devDependencies": {
     "@types/node": "^17.0.7",
     "prettier": "^2.6.2",
-    "turbo": "1.2.3"
+    "turbo": "^2.2.3"
   },
   "engines": {
     "npm": ">=7.0.0",
